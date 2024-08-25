@@ -1,0 +1,82 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 22 Sep 2022, 13:28:40
+    Author     : tauske
+*/
+
+.headings{
+    
+    height: 10vh;
+    width: 100%;
+    
+    background-color: black;
+    border-radius: 10px;
+    
+    border-color:  greenyellow;
+    
+    
+}
+.headings a{
+    
+    color: white;
+  float: right;
+  border-style: groove;
+      border-radius: 10px;
+  margin-right: 20px;
+   border-right: greenyellow;
+  margin-top: 15px;
+   border-left: greenyellow;
+  animation-play-state:  running;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  border-color: white;
+ font-size: 30px;
+ font-style: italic;
+ 
+}
+
+.headings a{
+    position: relative;
+    text-decoration: none;
+    letter-spacing: 5px;
+    
+    
+    
+}
+
+
+.headings a:after{
+    
+    content: "";
+   position: absolute;
+   background-color: greenyellow;
+   height: 5px;
+   width: 0%;
+   left: 0;
+   bottom: -15px;
+   transition: 0.5s;
+    
+    
+}    
+.headings a:hover:after{
+    
+    width: 100%;
+    transform-style: flat;
+}
+    
+.headings a animateMotion{
+    
+    
+    
+    
+    
+}
+    
+    
+
+
+    
+    
